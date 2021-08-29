@@ -1,4 +1,5 @@
 FROM ubuntu:focal
+LABEL org.opencontainers.image.source="https://github.com/dviih/gotty" author="Dviih"
 
 ADD ./gotty /gotty
 ADD ./entrypoint.sh /entrypoint.sh
